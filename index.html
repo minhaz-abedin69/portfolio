@@ -69,6 +69,12 @@
     <main id="main">
       <!-- ============ HERO ============ -->
       <section class="hero" id="top">
+        <!-- Full-bleed profile photo. Swap the image in css/style.css (.hero-photo-bg). -->
+        <div class="hero-photo-bg" role="img" aria-label="Portrait of Minhaz Abedin"></div>
+        <div class="hero-photo-sharp" aria-hidden="true"></div>
+        <div class="hero-photo-mirror" aria-hidden="true"></div>
+        <div class="hero-photo-mirror-l" aria-hidden="true"></div>
+        <div class="hero-bg" aria-hidden="true"></div>
         <div class="hero-inner">
           <div class="hero-copy" data-reveal>
             <p class="hero-kicker">Hi, I'm</p>
@@ -89,40 +95,6 @@
             </div>
           </div>
 
-          <div class="hero-visual glass-panel">
-            <svg
-              viewBox="0 0 480 480"
-              class="graph-svg graph-svg-bg"
-              id="graphSvg"
-              aria-hidden="true"
-            >
-              <g class="graph-edges">
-                <path class="edge" d="M240,90 L120,180" />
-                <path class="edge" d="M240,90 L360,180" />
-                <path class="edge" d="M120,180 L80,290" />
-                <path class="edge" d="M120,180 L180,300" />
-                <path class="edge" d="M360,180 L320,300" />
-                <path class="edge" d="M360,180 L400,290" />
-                <path class="edge" d="M180,300 L240,390" />
-                <path class="edge" d="M320,300 L240,390" />
-              </g>
-              <g class="graph-nodes">
-                <circle class="node node-root" cx="240" cy="90" r="14" />
-                <circle class="node" cx="120" cy="180" r="11" />
-                <circle class="node" cx="360" cy="180" r="11" />
-                <circle class="node" cx="80" cy="290" r="9" />
-                <circle class="node" cx="180" cy="300" r="9" />
-                <circle class="node" cx="320" cy="300" r="9" />
-                <circle class="node" cx="400" cy="290" r="9" />
-                <circle class="node node-leaf" cx="240" cy="390" r="12" />
-              </g>
-            </svg>
-            <img
-              src="assets/images/minhaz.jpg"
-              alt="Portrait of Minhaz Abedin"
-              class="hero-photo"
-            />
-          </div>
         </div>
         <div class="scroll-cue" aria-hidden="true"><span></span></div>
       </section>
